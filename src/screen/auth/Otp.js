@@ -21,7 +21,7 @@ const Otp = () => {
   return ( 
 <SafeAreaView style={{flex:1,backgroundColor:'white'}}>
   <View>
-    <Image  source={Images.otp}
+    <Image  source={Images.otp} // images added to the otp container
        resizeMode="contain"
             style={{alignSelf:'center',
     marginTop:40}}
